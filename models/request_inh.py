@@ -6,7 +6,7 @@ from odoo import api, fields, models
 class Applicant(models.Model):
     _inherit = "crm.lead"
 
-    survey_id = fields.Many2one('survey.survey', related='form_type.survey_id', string="Survey", readonly=True)
+    survey_id = fields.Many2one(related='form_type.survey_id', string="Survey", readonly=True)
     # response_id = fields.Many2one('survey.user_input', "Response", ondelete="set null")
     #
     # def action_start_survey(self):
