@@ -26,7 +26,7 @@
     ],
     'qweb': [
 
-        "static/src/xml/broker_dash2.xml",
+        # "static/src/xml/broker_dash2.xml",
 
     ],
     # only loaded in demonstration mode
