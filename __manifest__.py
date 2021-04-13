@@ -15,7 +15,7 @@
     'data': [
         # 'security/security.xml',
 
-        'views/requests.xml',
+        # 'views/requests.xml',
         'views/form_setup.xml',
 
 
