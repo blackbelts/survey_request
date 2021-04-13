@@ -9,7 +9,7 @@
     'version': '0.1',
     'license': 'AGPL-3',
     # any module necessary for this one to work correctly
-    'depends': ['base','request','survey'],
+    'depends': ['base','request','survey','crm'],
 
     # always loaded
     'data': [
@@ -34,5 +34,5 @@
         'demo/demo.xml',
     ],
 
-    'css': ['/request/static/src/css/main.css'],
+    # 'css': ['/request/static/src/css/main.css'],
 }

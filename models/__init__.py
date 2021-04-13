@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 
-from . import request
-from . import form_setup
+from . import request_inh
+from . import form_setup_inh
 
 

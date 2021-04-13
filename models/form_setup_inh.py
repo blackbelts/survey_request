@@ -3,7 +3,7 @@
 from odoo import fields, models, _
 
 
-class Job(models.Model):
+class Job1(models.Model):
     _inherit = "form.setup"
 
     survey_id = fields.Many2one(
