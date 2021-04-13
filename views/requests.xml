@@ -2,7 +2,7 @@
 
     <record id="crm_case_tree_view_request" model="ir.ui.view">
         <field name="model">crm.lead</field>
-        <field name="inherit_id" ref="request.crm_lead_tree_view"/>
+        <field name="inherit_id" ref="crm.crm_case_tree_view_oppor"/>
         <field name="arch" type="xml">
             <xpath expr="//field[@name='partner_id']" position="after">
                 <field name="survey_id" invisible="1"/>
@@ -14,7 +14,7 @@
     <record id="request_view_form_inherit" model="ir.ui.view">
         <field name="name">req.inherit</field>
         <field name="model">crm.lead</field>
-        <field name="inherit_id" ref="request.crm__lead_form_view"/>
+        <field name="inherit_id" ref="crm.crm_lead_view_form"/>
         <field name="arch" type="xml">
             <xpath expr="//button[@name='action_schedule_meeting']" position="after">
                 <button name="action_start_survey"
